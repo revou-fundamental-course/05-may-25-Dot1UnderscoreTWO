@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Travel Agent</title>
   <!-- Menghubungkan file CSS -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
 </head>
 <body>
 
@@ -34,11 +34,13 @@
         </div>
     </section>
   
+    <!-- Bungkus packages dan contact jadi dua kolom -->
+    <div class="packages-contact-wrapper">
     <!-- Section: Our Package -->
     <section id="packages" class="packages">
       <!-- Testimoni -->
       <blockquote>"Liburan jadi menyenangkan bersama Travel Agentku."</blockquote>
-      <p>- Florence Hughes, Ibu Rumah Tangga, 28</p>
+      <p>- Florence Hughes <br> Ibu Rumah Tangga, 28</p>
 
       <!-- Fitur utama yang ditawarkan -->
       <div class="features">
@@ -52,6 +54,7 @@
     </section>
 
     <!-- Section: Contact Us -->
+    
     <section id="contact" class="contact">
       <!-- Formulir help & support -->
       <form id="contact-form">
@@ -65,17 +68,18 @@
         <input type="email" id="email" placeholder="example@mail.com" required />
         
         <!-- Pilihan destinasi -->
-        <select id="interest" required>
-          <option value="">Select option</option>
-          <option value="Bali">Bali</option>
-          <option value="Japan">Japan</option>
-          <option value="Singapore">Singapore</option>
-        </select>
-
-        <!-- Tombol submit -->
-        <button type="submit">SEND</button>
+            <select id="interest" required>
+                <option value="">Select option</option>
+                <option value="Bali">Bali</option>
+                <option value="Japan">Japan</option>
+                <option value="Singapore">Singapore</option>
+              </select>
+      
+              <!-- Tombol submit -->
+              <button type="submit">SEND</button>
       </form>
     </section>
+    </div>
   </main>
 
   <!-- Menghubungkan file JavaScript -->
