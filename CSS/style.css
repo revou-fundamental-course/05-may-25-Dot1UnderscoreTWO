@@ -64,8 +64,10 @@ body {
 }
 
 .slider img {
-    width: 100%;
-    height: auto;
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px; /* Opsional */
     display: flex;
 }
 
@@ -164,4 +166,72 @@ body {
 
 .contact button:hover {
     background-color: #555;
+}
+
+/*our package*/
+.our-package-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.our-package-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #1d1d1d;
+}
+
+.package-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.package-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.package-item h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.package-item p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.closing-argument {
+    background-color: #f1f3f6;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.closing-argument h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.closing-argument p {
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.closing-argument button {
+    padding: 12px 30px;
+    background-color: #1d1d1d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.closing-argument button:hover {
+    background-color: #333;
 }
