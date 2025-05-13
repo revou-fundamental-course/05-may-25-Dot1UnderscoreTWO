@@ -1,5 +1,42 @@
 /* Reset dan dasar */
-* {
+* .testimonial {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .testimonial blockquote {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .testimonial-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .testimonial-profile img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+  }
+  
+  .testimonial-profile strong {
+    font-size: 14px;
+    color: #222;
+  }
+  
+  .testimonial-profile span {
+    font-size: 13px;
+    color: #666;
+  }
+   
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
