@@ -10,86 +10,85 @@
 <body>
     <!-- Bagian Header -->
     <div class="container">
-        <div class="row">
+            <!-- Navigasi halaman -->
+            <div class="navi">
+                <nav class="wrapper">
+                    <button onclick="scrollToSection('home')">Home</button>
+                    <button onclick="scrollToSection('packages')">Our Package</button>
+                    <button onclick="scrollToSection('contact')">Call Us</button>
+                </nav>
+            </div>
+        </div>
             <div class="header">
-                    <div class="navi">
-                        <nav class="wrapper">
-                            <button onclick="scrollToSection('home')">Home</button>
-                            <button onclick="scrollToSection('packages')">Our Package</button>
-                            <button onclick="scrollToSection('contact')">Call Us</button>
-                        </nav>
-                    </div>
-                    <h1>Your Trusted Travel Agent's</h1> 
-                    <p>Your happiness is our happiness</p> 
-                    <!-- Navigasi halaman -->
+                <h1>Your Trusted Travel Agent's</h1> 
+                <p>Your happiness is our happiness</p> 
             </div>
         </div>
         <div class="row">
-            <main>
-                <div class="content">
-                    <!-- Banner Section -->
-                    <section id="home" class="banner">
-                        <div class="slider">
-                            <img src="image/gambar 1.jpg" class="slide active" alt="Banner 1" />
-                            <img src="image/gambar 2.jpeg" class="slide" alt="Banner 2" />
-                            <img src="image/gambar 3.jpg" class="slide" alt="Banner 3" />
-                        </div>
-                    </section>
-                    <!-- Bungkus packages dan contact jadi dua kolom -->
-                    <div class="packages-contact-wrapper">
-                        <!-- Testimoni -->
-                        <div class="div">
-                            <div class="testimonial">
-                                <blockquote>"Liburan jadi menyenangkan bersama Travel Agentku."</blockquote>   
-                                <div class="testimonial-profile">
-                                    <img src="image/gambar 4.jpg" alt="Florence Hughes">
-                                    <div>
-                                        <strong>Florence Hughes</strong><br>
-                                        <span>Ibu Rumah Tangga, 28</span>
+            <div class="content"></div>
+                    <main>
+                        <!-- Bungkus packages dan contact jadi dua kolom -->
+                        <div class="packages-contact-wrapper">
+                            <!-- Testimoni -->
+                            <div class="row">
+                                <!-- Banner Section -->
+                                <section id="home" class="banner">
+                                    <div class="slider">
+                                        <img src="image/gambar 1.jpg" class="slide active" alt="Banner 1" />
+                                        <img src="image/gambar 2.jpeg" class="slide" alt="Banner 2" />
+                                        <img src="image/gambar 3.jpg" class="slide" alt="Banner 3" />
+                                    </div>
+                                </section>
+                                <div class="testimonial">
+                                    <blockquote>"Liburan jadi menyenangkan bersama Travel Agentku."</blockquote>   
+                                    <div class="testimonial-profile">
+                                        <img src="image/gambar 4.jpg" alt="Florence Hughes">
+                                        <div>
+                                            <strong>Florence Hughes</strong><br>
+                                            <span>Ibu Rumah Tangga, 28</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Fitur utama yang ditawarkan -->
-                            <div class="features">
-                                <p>1. Paket wisata lengkap <br>
-                                    Nikmati pengalaman liburan tanpa repot dengan pilihan destinasi wisata terbaik, akomodasi nyaman, dan itinerary yang dirancang khusus untuk Anda.</p>
-                                <p>2. Konsultasi perjalanan gratis <br>
-                                    Tim kami siap membantu Anda merencanakan perjalanan impian secara gratis, mulai dari pemilihan tujuan hingga tips perjalanan.</p>
-                                <p>3. Layanan pelanggan 24/7 <br>
-                                    Butuh bantuan kapan saja? Hubungi kami kapan pun, tim support kami siap membantu Anda 24 jam sehari, 7 hari seminggu.</p>
-                            </div></div>
-                <!-- Section: Contact Us -->
-                <div class="row">
-                    <div class="contact">
-                        <section id="contact" class="contact">
-                            <!-- Formulir help & support -->
-                            <form id="contact-form">
-                                <h3>Contact Us</h3>
-                                <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
-                                
-                                <!-- Input Nama -->
-                                <input type="text" id="name" placeholder="First and last name" required />
-                                
-                                <!-- Input Email -->
-                                <input type="email" id="email" placeholder="example@mail.com" required />
-                                
-                                <!-- Pilihan destinasi -->
-                                <select id="interest" required>
-                                    <option value="">Select option</option>
-                                    <option value="Bali">Bali</option>
-                                    <option value="Japan">Japan</option>
-                                    <option value="Singapore">Singapore</option>
-                                </select>
-                            
-                                <!-- Tombol submit -->
-                                <button type="submit">SEND</button>
-                            </form>
-                        </section>
+                                <!-- Fitur utama yang ditawarkan -->
+                                <div class="features">
+                                    <p>1. Paket wisata lengkap <br>
+                                        Nikmati pengalaman liburan tanpa repot dengan pilihan destinasi wisata terbaik, akomodasi nyaman, dan itinerary yang dirancang khusus untuk Anda.</p>
+                                    <p>2. Konsultasi perjalanan gratis <br>
+                                        Tim kami siap membantu Anda merencanakan perjalanan impian secara gratis, mulai dari pemilihan tujuan hingga tips perjalanan.</p>
+                                    <p>3. Layanan pelanggan 24/7 <br>
+                                        Butuh bantuan kapan saja? Hubungi kami kapan pun, tim support kami siap membantu Anda 24 jam sehari, 7 hari seminggu.</p>
+                                </div></div>
+                    <!-- Section: Contact Us -->
+                    <div class="row">
+                        <div class="contact">
+                            <section id="contact" class="contact">
+                                <!-- Formulir help & support -->
+                                <form id="contact-form">
+                                    <h3>Contact Us</h3>
+                                    <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+                                    
+                                    <!-- Input Nama -->
+                                    <input type="text" id="name" placeholder="First and last name" required />
+                                    
+                                    <!-- Input Email -->
+                                    <input type="email" id="email" placeholder="example@mail.com" required />
+                                    
+                                    <!-- Pilihan destinasi -->
+                                    <select id="interest" required>
+                                        <option value="">Select option</option>
+                                        <option value="Bali">Bali</option>
+                                        <option value="Japan">Japan</option>
+                                        <option value="Singapore">Singapore</option>
+                                    </select>
+                                    <!-- Tombol submit -->
+                                    <button type="submit">SEND</button>
+                                </form>
+                            </section>
+                        </div>
                     </div>
-                </div>
-                </div>
-                </div>
-            </main>
+                    </div>
+                </main>
+            </div>
         </div>
     </div>
 
