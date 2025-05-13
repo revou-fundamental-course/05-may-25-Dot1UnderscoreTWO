@@ -71,11 +71,11 @@ body {
 }
 
 .slide {
-    
+display: none;
 }
 
 .slide.active {
-    
+display: block;
 }
 
 /* Dua kolom utama */
@@ -97,7 +97,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     max-width: 600px;
-}
+    }
 
 .testimonial blockquote {
     font-style: italic;
